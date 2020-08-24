@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Car.css';
 
 function Car (props) {
-    const { car, list } = props;
+    const { car} = props;
 
     return (
         <Link to={`/cars/${car._id}`}>
