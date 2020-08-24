@@ -16,7 +16,6 @@ export default() => (
          <NewCarContainer />
         
         }/>
- 
         <Route path='/cars/:id' component={CarContainer} />
         <Route path='/cars' component={CarsContainer} />
    </Switch>
