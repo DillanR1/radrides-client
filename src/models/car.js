@@ -21,6 +21,28 @@ class CarModel {
         })
            .then((response) => response.json())
     }
+
+    static deleteCar = (car) => {
+        return fetch(url, {
+            method: 'DELETE',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(car)
+        })
+           .then((response) => response.json())
+    }
+
+    static updateCar = (car) => {
+        return fetch(url, {
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(car)
+        })
+           .then((response) => response.json())
+    }
 }
 
 export default CarModel

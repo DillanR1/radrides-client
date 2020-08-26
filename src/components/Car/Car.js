@@ -17,6 +17,7 @@ function Car (props) {
               </section>
             </div>
         </Link>
+      
     );
 }
 
