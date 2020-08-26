@@ -1,9 +1,9 @@
 import React from 'react';
-// not in API yet import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './NavBar.css';
 
 function NavBar() {
-    return
+    return (
       <nav>
           <div className="container">
             <NavLink className="logo" to='/'>
@@ -22,6 +22,7 @@ function NavBar() {
             </ul>
           </div>
       </nav>
+    );
 }
 
 export default NavBar;

@@ -1,7 +1,7 @@
 import React from 'react';
 import Car from '../Car/Car';
 
-import '/Cars.css';
+import './Cars.css';
 
 function Cars(props) {
     const cars = props.cars.map((carObj) => {
