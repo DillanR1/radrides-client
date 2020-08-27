@@ -19,7 +19,7 @@ class CarContainer extends React.Component {
 
     render() {
         console.log(this.props);
-        return <Car car={this.state.car} list={false} />;
+        return <Car car={this.state.car} />;
     }
 }
 
