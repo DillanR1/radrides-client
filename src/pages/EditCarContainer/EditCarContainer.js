@@ -16,9 +16,7 @@ class EditCarContainer extends React.Component {
     
     handleChange = (event) => {
         console.log(event.target.id); 
-      if (event.target.value === 'on') {
-          event.target.value = true;    
-      }
+      
 
       this.setState({[event.target.name]: event.target.value})
     };
@@ -40,20 +38,20 @@ class EditCarContainer extends React.Component {
               <form onSubmit={this.handleSubmit}>
                   <h2>Edit Car</h2>
                     <label htmlFor="year">Year</label>
-                    <input onInput={this.handleChange} type="number" name="year" id="year" value={year}/>
+                    <input onChange={this.handleChange} type="number" name="year" id="year" value={year}/>
                   <div>
                     <label htmlFor="make">Make</label>
-                    <input onInput={this.handleChange} type="text" name="make" id="make" value={make} />
+                    <input onChange={this.handleChange} type="text" name="make" id="make" value={make} />
                   </div>
                   <div>
                     <label htmlFor="model">Model</label>
-                    <input onInput={this.handleChange} type="text" name="model" id="model" value={model} />
+                    <input onChange={this.handleChange} type="text" name="model" id="model" value={model} />
                   </div>
                   <div>
                     <label htmlFor="carPicUrl">Car Snapshot</label>
-                    <input onInput={this.handleChange} type="text" name="carPicUrl" id="carPicUrl" value={carPicUrl} />
+                    <input onChange={this.handleChange} type="text" name="carPicUrl" id="carPicUrl" value={carPicUrl} />
                   </div>
-                  <button type="submit">Add Car</button>
+                  <button type="submit">Update</button>
               </form>
             </div>
         )

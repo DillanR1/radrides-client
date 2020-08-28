@@ -7,6 +7,7 @@ class CarModel {
 
   static getCarById = (carId) => {
     return fetch(`${url}/${carId}`).then((response) => response.json())
+    //console.log(carId);
   }
 
   static createCar = (car) => {
