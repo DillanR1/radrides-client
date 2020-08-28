@@ -4,7 +4,7 @@ import CarModel from '../../models/car';
 
 import './Car.css';
 
-function Car (props) {
+function CarDetail (props) {
     const { car } = props;
 
     const handleDelete = () => {
@@ -25,9 +25,24 @@ function Car (props) {
               </section>
             </div>
         </Link>
-       
+        {(
+          <div className='car-card-actions'>
+            <p><strong>Year: </strong> {car.year}</p>
+            <p><strong>Make: </strong> {car.make}</p>
+            <p><strong>Model: </strong> {car.model}</p>
+            <button className='delete' onClick={handleDelete}>Delete</button>
+            <Link to={`/cars/${car._id}/edit`} className='edit'>Edit</Link>
+            <Link to={`/cars/${car._id}/newPost`} className='edit'>Add Posts</Link>
+          </div>
+        )}
+
+        {/* Form, Hooks and State Refactor to be stateful component needs to be class instead of function */}
+      {car.posts && car.posts.map((post) => {
+        return <p>{post.title}</p>
+      })}
+
       </>
     );
 }
 
-export default withRouter(Car);
+export default withRouter(CarDetail);

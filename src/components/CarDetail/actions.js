@@ -4,7 +4,7 @@ import CarModel from '../../models/car';
 
 import './Car.css';
 
-function Car (props) {
+function CarDetail (props) {
     const { car } = props;
 
     const handleDelete = () => {
@@ -25,9 +25,17 @@ function Car (props) {
               </section>
             </div>
         </Link>
-       
+        {(
+          <div className='car-card-actions'>
+            <p><strong>Year: </strong> {car.year}</p>
+            <p><strong>Make: </strong> {car.make}</p>
+            <p><strong>Model: </strong> {car.model}</p>
+            <button className='delete' onClick={handleDelete}>Delete</button>
+            <Link to={`/cars/${car._id}/edit`} className='edit'>Edit</Link>
+          </div>
+        )}
       </>
     );
 }
 
-export default withRouter(Car);
+export default withRouter(CarDetail);

@@ -9,6 +9,7 @@
   margin-bottom: 30px;
   color: white;
   transition: 0.1s linear;
+  margin-left: 20px;
 }
 
 .car-card:hover {
