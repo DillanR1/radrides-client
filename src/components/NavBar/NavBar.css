@@ -1,9 +1,12 @@
 nav {
-    background-color: #002D59;
+    background-color: #13a0b9;
     color: #fff;
     margin-bottom: 40px;
   }
   
+  body {
+    background-color: rgb(158, 152, 152);
+  }
   nav .container {
     display: flex;
     flex-direction: row;
