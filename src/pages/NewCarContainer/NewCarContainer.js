@@ -2,6 +2,8 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import CarModel from '../../models/car';
 
+import './NewCar.css';
+
 class NewCarContainer extends React.Component {
     state = {
         year: Number,
@@ -31,22 +33,22 @@ class NewCarContainer extends React.Component {
         return (
             <div>
               <form onSubmit={this.handleSubmit}>
-                  <h2>Add A New Car</h2>
-                  <div>
-                    <label htmlFor="">Year</label>
-                    <input onInput={this.handleChange} type="number" name="year" />
+                  <h2 style={{color:'#13b0cc'}}>Add A New Car</h2>
+                  <div className="newCarSub">
+                    <label htmlFor=""></label>
+                    <input onInput={this.handleChange} placeholder="Year" type="number" name="year" />
                   </div>
-                  <div>
-                    <label htmlFor="">Make</label>
-                    <input onInput={this.handleChange} type="text" name="make" />
+                  <div className="newCarSub">
+                    <label htmlFor=""></label>
+                    <input onInput={this.handleChange} placeholder="Make" type="text" name="make" />
                   </div>
-                  <div>
-                    <label htmlFor="">Model</label>
-                    <input onInput={this.handleChange} type="text" name="model" />
+                  <div className="newCarSub">
+                    <label htmlFor=""></label>
+                    <input onInput={this.handleChange} placeholder="Model" type="text" name="model" />
                   </div>
-                  <div>
-                    <label htmlFor="">Car Snapshot</label>
-                    <input onInput={this.handleChange} type="text" name="carPicUrl" />
+                  <div className="newCarSub"> 
+                    <label htmlFor=""></label>
+                    <input onInput={this.handleChange} placeholder="Picture Url" type="text" name="carPicUrl" />
                   </div>
                   <button type="submit">Add Car</button>
               </form>

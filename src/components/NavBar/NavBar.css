@@ -1,11 +1,11 @@
 nav {
-    background-color: #13a0b9;
+    background-color: #000000;
     color: #fff;
     margin-bottom: 40px;
   }
   
   body {
-    background-color: rgb(158, 152, 152);
+    background-color: rgb(77, 74, 74);
   }
   nav .container {
     display: flex;
@@ -43,6 +43,6 @@ nav {
   
   .nav-link:hover,
   .nav-link.active {
-    background-color: #004D99;
+    background-color: #13b0cc;
   }
   
