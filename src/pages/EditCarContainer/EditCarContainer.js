@@ -36,20 +36,20 @@ class EditCarContainer extends React.Component {
         return (
            <div>
               <form onSubmit={this.handleSubmit}>
-                  <h2>Edit Car</h2>
-                    <label htmlFor="year">Year</label>
-                    <input onChange={this.handleChange} type="number" name="year" id="year" value={year}/>
-                  <div>
-                    <label htmlFor="make">Make</label>
-                    <input onChange={this.handleChange} type="text" name="make" id="make" value={make} />
+                  <h2 style={{color:'#13b0cc'}}>Edit Car</h2>
+                    <label htmlFor="year"></label>
+                    <input onChange={this.handleChange} placeHolder="Year" type="number" name="year" value={year}/>
+                  <div className="editInfo">
+                    <label htmlFor="make"></label>
+                    <input onChange={this.handleChange} placeHolder="Make" type="text" name="make" value={make} />
                   </div>
-                  <div>
-                    <label htmlFor="model">Model</label>
-                    <input onChange={this.handleChange} type="text" name="model" id="model" value={model} />
+                  <div className="editInfo">
+                    <label htmlFor="model"></label>
+                    <input onChange={this.handleChange} placeHolder="Model" type="text" name="model" value={model} />
                   </div>
-                  <div>
-                    <label htmlFor="carPicUrl">Car Snapshot</label>
-                    <input onChange={this.handleChange} type="text" name="carPicUrl" id="carPicUrl" value={carPicUrl} />
+                  <div className="editInfo">
+                    <label htmlFor="carPicUrl"></label>
+                    <input onChange={this.handleChange} placeHolder="Picture URL" type="text" name="carPicUrl" value={carPicUrl} />
                   </div>
                   <button type="submit">Update</button>
               </form>

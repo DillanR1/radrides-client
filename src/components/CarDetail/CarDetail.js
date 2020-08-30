@@ -26,13 +26,16 @@ function CarDetail (props) {
             </div>
         </Link>
         {(
-          <div className='car-card-actions'>
+          <div className='car-card-actions' style={{color:'#13b0cc'}}>
             <p><strong>Year: </strong> {car.year}</p>
             <p><strong>Make: </strong> {car.make}</p>
             <p><strong>Model: </strong> {car.model}</p>
             <button className='delete' onClick={handleDelete}>Delete</button>
-            <Link to={`/cars/${car._id}/edit`} className='edit'>Edit</Link>
-            <Link to={`/cars/${car._id}/newPost`} className='edit'>Add Posts</Link>
+            <Link to={`/cars/${car._id}/edit`} className='edit'>
+              <button>Edit</button></Link>
+            <Link to={`/cars/${car._id}/newPost`} className='edit'><button>Add Posts
+              </button>
+            </Link>
           </div>
         )}
 
