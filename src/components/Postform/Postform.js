@@ -19,14 +19,14 @@ class Postform extends Component {
     render() {
         return (
             <div>
-                <h4> Add Post </h4>
+                <h4 style={{color:'#13b0cc'}}> Add Post </h4>
                 <form onSubmit={this.handleSubmit}>
                     <div>
-                        <label> Title </label>
+                        <label style={{color:'#13b0cc'}}> Title </label>
                         <input type="text" name="title" value={this.state.title} onChange={this.handleChange} />
                     </div>
                     <div>
-                        <label> Body </label>
+                        <label style={{color:'#13b0cc'}}> Body </label>
                         <input type="text" name="body" value={this.state.body} onChange={this.handleChange} />
                     </div>
                     <button type="submit"> Submit </button>
