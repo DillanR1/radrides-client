@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/DillanR1.github.io/radrides-client/static/css/main.85cfcd7a.chunk.css",
+    "main.js": "/DillanR1.github.io/radrides-client/static/js/main.05fd0690.chunk.js",
+    "main.js.map": "/DillanR1.github.io/radrides-client/static/js/main.05fd0690.chunk.js.map",
+    "runtime-main.js": "/DillanR1.github.io/radrides-client/static/js/runtime-main.a9c56c60.js",
+    "runtime-main.js.map": "/DillanR1.github.io/radrides-client/static/js/runtime-main.a9c56c60.js.map",
+    "static/js/2.9084aba1.chunk.js": "/DillanR1.github.io/radrides-client/static/js/2.9084aba1.chunk.js",
+    "static/js/2.9084aba1.chunk.js.map": "/DillanR1.github.io/radrides-client/static/js/2.9084aba1.chunk.js.map",
+    "index.html": "/DillanR1.github.io/radrides-client/index.html",
+    "precache-manifest.cf319b0a1bed9eb49ae3e0f9bfb2a836.js": "/DillanR1.github.io/radrides-client/precache-manifest.cf319b0a1bed9eb49ae3e0f9bfb2a836.js",
+    "service-worker.js": "/DillanR1.github.io/radrides-client/service-worker.js",
+    "static/css/main.85cfcd7a.chunk.css.map": "/DillanR1.github.io/radrides-client/static/css/main.85cfcd7a.chunk.css.map",
+    "static/js/2.9084aba1.chunk.js.LICENSE.txt": "/DillanR1.github.io/radrides-client/static/js/2.9084aba1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a9c56c60.js",
+    "static/js/2.9084aba1.chunk.js",
+    "static/css/main.85cfcd7a.chunk.css",
+    "static/js/main.05fd0690.chunk.js"
+  ]
+}
