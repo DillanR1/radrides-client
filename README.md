@@ -1,23 +1,41 @@
-"Rad Rides" is a blog-inspired website that utilizes the MERN stack, with the front end and back end having their own separate repositories. The idea of this project was to use two different models, one with full CRUD functionality and restful routing. Visually, I wanted my app to appear a little more fun than the traditional autoblog, something more interactive and visually pleasing for the end user. There is no Auth, so any user is able to add pictures of a vehicle with a URL link, specify the year make and model of a vehicle, and add posts to vehicles. Vehicles can also be edited and deleted.
+# radrides-master
 
 
- The current version of "Rad Rides" is V 1.0 with plans of adding a text box for the posts, changing button sizes, and adding a carousel. The most important improvement moving forward is to add full CRUD functionality to the post model. I would also love to add an about section with further stretch goals of adding auth in future versions. After the next revision, "Rad Rides" is planned to be deployed on Heroku as well.
+"Rad Rides" is a blog-inspired website that utilizes the MERN stack. The idea of this project was to use two different models, one with full CRUD functionality and restful routing. Visually, I wanted my app to appear a little more fun than the traditional autoblog, something more interactive and visually pleasing for the end user. Any user is able to specify the year make and model of a vehicle, and add posts to vehicles. Vehicles can also be edited and deleted.
 
- The technologies used for this app are as follows:
+# Initial Build
 
- MongoDB
- Mongoose
- Express
- React 
- Node
+Radrides was initially built in two separate pieces, the client side and the API side. I decided to consolidate the pieces together while still keeping the commit history in tact.
 
-MongoDB Atlas was adopted mid development.
-Postman 
-Bootstap
+
+
+# plans for V2
+
+The current version of "Rad Rides" is V 1.0 with plans of adding a text box for the posts, changing button sizes, and adding a carousel. The most important improvement moving forward is to add full CRUD functionality to the post model. I would also love to add an about section with further stretch goals of adding auth in future versions.
+
+
+# Technologies used
+The technologies used for this app are as follows:
+
+
+MongoDB, Mongoose, Express, React, Node, JavaScript, HTML and CSS
+
+MongoDB Atlas was adopted mid development. Postman and Bootstrap were also used.
+
+
+# Deploy Locally
+If you would like to replicate "Rad Rides" locally, Fork and Clone BOTH repositories: "radrides-api", "radrides-client"
+NPM I dependencies.
+
+In the first tab, radrides-master repeat the same procedure, npm i dependencies. Radrides-client is set to listen on port 3000 by default, and radrides-master is set to listen on port 4000.
+After Dependencies are installed, pre-seed your database with the .json pre-seed files with "node seed js" in your terminal.
+
+
+NOTE: you will need to set up and configure your own database locally. You can use the schema to populate your own database, or simply Node seed server.js to preseed the database with cars and posts.
+
 
 If you would like to replicate "Rad Rides" locally, Fork and Clone BOTH repositories: "radrides-api", "radrides-client"
 NPM I dependencies.
-After Dependencies are installed, pre-seed your database with the .json pre-seed files with "node seed js" in your terminal.
 
 
 
