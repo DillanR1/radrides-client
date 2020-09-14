@@ -1,4 +1,10 @@
-# radrides-master
+# Attention
+
+This piece is still being added to my portfolio to showcase the code. There are steps below that will allow you to clone down the project locally if desired. 
+I am currently working out bugs to successfully host my project. I will either need to host both halves of my project, or house both halves in a parent directory in order to deploy it. Thank you for your understanding.
+
+
+# radrides
 
 
 "Rad Rides" is a blog-inspired website that utilizes the MERN stack. The idea of this project was to use two different models, one with full CRUD functionality and restful routing. Visually, I wanted my app to appear a little more fun than the traditional autoblog, something more interactive and visually pleasing for the end user. Any user is able to specify the year make and model of a vehicle, and add posts to vehicles. Vehicles can also be edited and deleted.
@@ -31,7 +37,7 @@ In the first tab, radrides-master repeat the same procedure, npm i dependencies.
 After Dependencies are installed, pre-seed your database with the .json pre-seed files with "node seed js" in your terminal.
 
 
-NOTE: you will need to set up and configure your own database locally. You can use the schema to populate your own database, or simply Node seed server.js to preseed the database with cars and posts.
+NOTE: you will need to set up and configure your own database locally. You can use the car schema and post schema to populate your own database, or simply "Node seed server.js" to preseed the database with cars and posts. MONGODB Atlas was used as MLABS Heroku add-on will no longer be supported. 
 
 
 If you would like to replicate "Rad Rides" locally, Fork and Clone BOTH repositories: "radrides-api", "radrides-client"
