@@ -1,4 +1,4 @@
-const url = `https://infinite-lake-54694.herokuapp.com/`;
+const url = `https://infinite-lake-54694.herokuapp.com/api/v1/posts`;
 
 class PostModel {
  
