@@ -1,17 +1,12 @@
 # Attention
 
-This piece is still being added to my portfolio to showcase the code. There are steps below that will allow you to clone down the project locally if desired. 
-I am currently working out bugs to successfully host my project. I will either need to host both halves of my project, or house both halves in a parent directory in order to deploy it. Thank you for your understanding.
+This project is now live on Heroku! The Client side and the API are both hosted to Heroku. Please be patient while Heroku spins up the client and connects it to the API. It may take a brief moment before the site connects. If the cars do not display after a moment, refreshing the page and navigating back to the cars page often resolves the issue. Lastly, if you would like to add a car and the image is NOT displaying make sure you are right clicking the image and copying the link address.
 
 
 # radrides
 
 
 "Rad Rides" is a blog-inspired website that utilizes the MERN stack. The idea of this project was to use two different models, one with full CRUD functionality and restful routing. Visually, I wanted my app to appear a little more fun than the traditional autoblog, something more interactive and visually pleasing for the end user. Any user is able to specify the year make and model of a vehicle, and add posts to vehicles. Vehicles can also be edited and deleted.
-
-# Initial Build
-
-Radrides was initially built in two separate pieces, the client side and the API side. I decided to consolidate the pieces together while still keeping the commit history in tact.
 
 
 
@@ -29,19 +24,6 @@ MongoDB, Mongoose, Express, React, Node, JavaScript, HTML and CSS
 MongoDB Atlas was adopted mid development. Postman and Bootstrap were also used.
 
 
-# Deploy Locally
-If you would like to replicate "Rad Rides" locally, Fork and Clone BOTH repositories: "radrides-api", "radrides-client"
-NPM I dependencies.
-
-In the first tab, radrides-master repeat the same procedure, npm i dependencies. Radrides-client is set to listen on port 3000 by default, and radrides-master is set to listen on port 4000.
-After Dependencies are installed, pre-seed your database with the .json pre-seed files with "node seed js" in your terminal.
-
-
-NOTE: you will need to set up and configure your own database locally. You can use the car schema and post schema to populate your own database, or simply "Node seed server.js" to preseed the database with cars and posts. MONGODB Atlas was used as MLABS Heroku add-on will no longer be supported. 
-
-
-If you would like to replicate "Rad Rides" locally, Fork and Clone BOTH repositories: "radrides-api", "radrides-client"
-NPM I dependencies.
 
 
 

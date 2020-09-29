@@ -1,4 +1,4 @@
-const url = `http://localhost:4000/api/v1/cars`;
+const url = `https://infinite-lake-54694.herokuapp.com/api/v1/cars`;
 
 class CarModel {
   static getAllCars = () => {
